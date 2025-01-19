@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
-db = pd.read_csv('casas_preco_eda.csv')
+db = pd.read_csv('machine_learning/python/casas_preco_eda.csv')
 
 db = db.drop(columns=['titulo', 'descriçao', 'casas'])
     
