@@ -1,0 +1,102 @@
+body {
+    background-color: #121212;
+    color: #E0E0E0;
+    font-family: 'Special Elite', monospace;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #0B3D0B;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+}
+
+header h1 {
+    color: #39FF14;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #E0E0E0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #39FF14;
+}
+
+main {
+    padding-top: 150px;
+    /* Compensa o header fixo */
+    text-align: center;
+}
+
+section {
+    margin: 50px auto;
+    padding: 30px 20px;
+    max-width: 800px;
+    background-color: #1E1E1E;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(57, 255, 20, 0.2);
+}
+
+section h2,
+section h3 {
+    color: #39FF14;
+}
+
+section ul,
+section ol {
+    margin-left: 20px;
+}
+
+section li {
+    margin-bottom: 10px;
+}
+
+.download-btn {
+    background-color: #39FF14;
+    color: #121212;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 5px #0B3D0B;
+    transition: 0.3s;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.download-btn:hover {
+    background-color: #0B3D0B;
+    color: #E0E0E0;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 15px 0;
+    background-color: #0B3D0B;
+    color: #B0B0B0;
+    font-size: 14px;
+    text-align: center;
+}

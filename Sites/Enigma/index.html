@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enigma</title>
+    <link rel="icon" href="./img/ENIGMA.png" type="image/png" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Mini Enigma</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#download">Baixar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção Sobre -->
+        <section id="sobre">
+            <h2>Sobre o Mini Enigma</h2>
+            <p>O <strong>Mini Enigma</strong> é uma versão simplificada e digital de uma máquina de criptografia, inspirada nas
+                famosas máquinas Enigma usadas durante a Segunda Guerra Mundial.</p>
+        
+            <h3>Como o Mini Enigma funciona?</h3>
+            <p>O sistema utiliza <strong>3 rotores virtuais</strong>, que funcionam como deslocadores de letras. Cada rotor
+                representa um número de posições para avançar no alfabeto.</p>
+        
+            <p><strong>Configuração inicial dos rotores:</strong></p>
+            <ul>
+                <li>Rotor 1: +3 posições</li>
+                <li>Rotor 2: +1 posição</li>
+                <li>Rotor 3: +4 posições</li>
+            </ul>
+        
+            <h3>Passo a passo da codificação:</h3>
+            <ol>
+                <li><strong>Entrada:</strong> O usuário digita uma mensagem qualquer.</li>
+                <li><strong>Processamento de cada letra:</strong> Para cada caractere, o programa calcula um deslocamento
+                    baseado na soma dos três rotores. Por exemplo, com os rotores em 3, 1 e 4, o deslocamento é de 8 posições.
+                </li>
+                <li><strong>Avanço dos rotores:</strong> Após cada letra, o Rotor 1 avança uma posição. Quando o Rotor 1
+                    completa 26 voltas, o Rotor 2 avança uma. Quando o Rotor 2 completa 26 voltas, o Rotor 3 avança uma posição.
+                </li>
+            </ol>
+        
+            <h3>Como funciona a decodificação?</h3>
+            <p>O <strong>Decodificador</strong> realiza o processo inverso:</p>
+            <ul>
+                <li>Parte da mesma configuração inicial dos rotores.</li>
+                <li>Para cada letra, o programa "volta" no alfabeto o mesmo número de posições que foi usado na codificação.
+                </li>
+                <li>Os rotores avançam da mesma forma, garantindo que o deslocamento por letra seja idêntico ao da codificação.
+                </li>
+            </ul>
+        
+            <p><strong>Importante:</strong> Para a decodificação funcionar corretamente, o estado inicial dos rotores deve ser o
+                mesmo usado na codificação.</p>
+        
+            <h3>Exemplo rápido:</h3>
+            <ul>
+                <li><strong>Texto original:</strong> HELLO</li>
+                <li><strong>Texto codificado:</strong> PMTTW</li>
+                <li><strong>Após decodificar:</strong> HELLO</li>
+            </ul>
+        
+            <p>O Mini Enigma é ideal para quem quer brincar com criptografia de forma simples e didática!</p>
+            </section>
+
+        <!-- Seção Download -->
+        <section id="download">
+            <h2>Download do APK</h2>
+            <p>Clique no botão abaixo para baixar o aplicativo Mini Enigma:</p>
+            <a href="./app/app-debug.apk" download="Mini Enigma.apk" class="download-btn">Baixar APK</a>
+            </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mini Enigma. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
