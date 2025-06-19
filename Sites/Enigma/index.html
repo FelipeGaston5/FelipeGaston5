@@ -22,56 +22,58 @@
     </header>
 
     <main>
-        <!-- Seção Sobre -->
         <section id="sobre">
             <h2>Sobre o Mini Enigma</h2>
             <p>O <strong>Mini Enigma</strong> é uma versão simplificada e digital de uma máquina de criptografia, inspirada nas
                 famosas máquinas Enigma usadas durante a Segunda Guerra Mundial.</p>
         
             <h3>Como o Mini Enigma funciona?</h3>
-            <p>O sistema utiliza <strong>3 rotores virtuais</strong>, que funcionam como deslocadores de letras. Cada rotor
-                representa um número de posições para avançar no alfabeto.</p>
+            <p>O sistema utiliza <strong>3 rotores virtuais</strong>, que funcionam como deslocadores de letras. Cada rotor pode
+                ser configurado com um valor de <strong>1 a 9</strong>, representando o número de posições para avançar no
+                alfabeto.</p>
         
-            <p><strong>Configuração inicial dos rotores:</strong></p>
+            <p><strong>Exemplo de configuração dos rotores:</strong></p>
             <ul>
-                <li>Rotor 1: +3 posições</li>
-                <li>Rotor 2: +1 posição</li>
-                <li>Rotor 3: +4 posições</li>
+                <li>Rotor 1: 3 posições</li>
+                <li>Rotor 2: 1 posição</li>
+                <li>Rotor 3: 4 posições</li>
             </ul>
+            <p>(Você pode escolher qualquer valor de 1 a 9 para cada rotor)</p>
         
             <h3>Passo a passo da codificação:</h3>
             <ol>
-                <li><strong>Entrada:</strong> O usuário digita uma mensagem qualquer.</li>
-                <li><strong>Processamento de cada letra:</strong> Para cada caractere, o programa calcula um deslocamento
-                    baseado na soma dos três rotores. Por exemplo, com os rotores em 3, 1 e 4, o deslocamento é de 8 posições.
-                </li>
+                <li><strong>Entrada:</strong> O usuário digita a mensagem desejada.</li>
+                <li><strong>Processamento:</strong> Para cada caractere, o programa calcula um deslocamento com base na soma dos
+                    três rotores. Por exemplo: com os rotores em 3, 1 e 4, o deslocamento inicial será de 8 posições no
+                    alfabeto.</li>
                 <li><strong>Avanço dos rotores:</strong> Após cada letra, o Rotor 1 avança uma posição. Quando o Rotor 1
-                    completa 26 voltas, o Rotor 2 avança uma. Quando o Rotor 2 completa 26 voltas, o Rotor 3 avança uma posição.
-                </li>
+                    completa 26 voltas (uma volta completa pelo alfabeto), o Rotor 2 avança uma posição. Da mesma forma, quando
+                    o Rotor 2 completa 26 voltas, o Rotor 3 avança uma posição.</li>
             </ol>
         
             <h3>Como funciona a decodificação?</h3>
-            <p>O <strong>Decodificador</strong> realiza o processo inverso:</p>
+            <p>O <strong>decodificador</strong> realiza o processo inverso:</p>
             <ul>
-                <li>Parte da mesma configuração inicial dos rotores.</li>
-                <li>Para cada letra, o programa "volta" no alfabeto o mesmo número de posições que foi usado na codificação.
-                </li>
-                <li>Os rotores avançam da mesma forma, garantindo que o deslocamento por letra seja idêntico ao da codificação.
-                </li>
+                <li>Parte da mesma configuração inicial dos rotores usada na codificação.</li>
+                <li>Para cada letra, o programa retrocede no alfabeto o mesmo número de posições usado na codificação.</li>
+                <li>Os rotores avançam da mesma forma que durante a codificação, garantindo que o deslocamento por letra seja
+                    idêntico.</li>
             </ul>
         
-            <p><strong>Importante:</strong> Para a decodificação funcionar corretamente, o estado inicial dos rotores deve ser o
-                mesmo usado na codificação.</p>
+            <p><strong>Atenção:</strong> Para a decodificação funcionar corretamente, é essencial usar exatamente os mesmos
+                valores iniciais de rotores usados na codificação.</p>
         
             <h3>Exemplo rápido:</h3>
             <ul>
                 <li><strong>Texto original:</strong> HELLO</li>
                 <li><strong>Texto codificado:</strong> PMTTW</li>
-                <li><strong>Após decodificar:</strong> HELLO</li>
+                <li><strong>Texto decodificado:</strong> HELLO</li>
             </ul>
         
-            <p>O Mini Enigma é ideal para quem quer brincar com criptografia de forma simples e didática!</p>
-            </section>
+            <p>O Mini Enigma é ideal para quem deseja aprender e brincar com conceitos básicos de criptografia de maneira
+                simples e divertida!</p>
+        </section>
+        
 
         <!-- Seção Download -->
         <section id="download">
