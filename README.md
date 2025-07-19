@@ -49,7 +49,7 @@
 ## 📊 Estatísticas GitHub
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=FelipeGaston5&show_icons=true&theme=radical" />
+    <img width="49%" src="https://github-readme-stats.vercel.app/api?username=FelipeGaston5&show_icons=true&theme=radical" />
   <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FelipeGaston5&layout=compact&theme=radical" />
 </p>
 
