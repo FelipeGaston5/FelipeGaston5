@@ -27,7 +27,8 @@
 
 | Projeto | Descrição | Tecnologias |
 |--------|-----------|-------------|
-| [Carbyte] | Sistema de telemetria para veículos via CAN | `Arduino` `ESP32` `Raspberry Pi` `C++` |
+| [Carbyte](https://github.com/FelipeGaston5/Carbyte) | Sistema de telemetria para veículos via CAN | `Arduino` `ESP32` `Raspberry Pi` `C++` |
+| [PraEla](https://github.com/FelipeGaston5/PraEla) | App de chat com funções para casais | `Java` `Firebase` `Android Studio` |
 | [Quarteto Motors](https://github.com/FelipeGaston5/QuartetoMotors) | Sistema completo para gerenciamento de concessionárias | `MySQL` `Ionic` `Java` |
 
 ---
@@ -63,7 +64,6 @@
 
 ## 📫 Contato
 
-- 📸 [Instagram – @felipe__gaston](https://www.instagram.com/felipe__gaston)  
 - 💼 [LinkedIn – felipe-t-p-gaston](https://www.linkedin.com/in/felipe-t-p-gaston-b0b4b9308)  
 - ✉️ Email: *<felipetpgaston@gmail.com>*
 
