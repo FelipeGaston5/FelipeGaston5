@@ -65,6 +65,6 @@
 ## 📫 Contato
 
 - 💼 [LinkedIn – felipe-t-p-gaston](https://www.linkedin.com/in/felipe-t-p-gaston-b0b4b9308)  
-- ✉️ Email: *<felipetpgaston@gmail.com>*
+- ✉️ Email: *<gastonfelipe5@gmail.com>*
 
 ---
