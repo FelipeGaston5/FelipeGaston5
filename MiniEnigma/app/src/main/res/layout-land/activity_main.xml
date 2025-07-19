@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main_scene">
+
+    <EditText
+        android:id="@+id/inputTexto"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:hint="Digite o texto aqui"
+        app:layout_constraintBottom_toTopOf="@+id/btnCodificar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btnCodificar"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCodificar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Codificar"
+        app:layout_constraintBottom_toTopOf="@+id/btnDecodificar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btnDecodificar"
+        app:layout_constraintTop_toBottomOf="@+id/inputTexto" />
+
+    <Button
+        android:id="@+id/btnDecodificar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Decodificar"
+        app:layout_constraintBottom_toTopOf="@+id/outputTexto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/outputTexto"
+        app:layout_constraintTop_toBottomOf="@+id/btnCodificar" />
+
+    <TextView
+        android:id="@+id/outputTexto"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:paddingTop="16dp"
+        android:text=""
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/btnDecodificar" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="244dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/outputTexto" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

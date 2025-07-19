@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp">
+
+
+    <TextView
+        android:id="@+id/labelcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Configurar Rotores:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/labelRotor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rotor 1"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@id/spinnerRotor1"
+        app:layout_constraintStart_toStartOf="@id/spinnerRotor1"
+        app:layout_constraintEnd_toEndOf="@id/spinnerRotor1"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/labelRotor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rotor 2"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@id/spinnerRotor2"
+        app:layout_constraintStart_toStartOf="@id/spinnerRotor2"
+        app:layout_constraintEnd_toEndOf="@id/spinnerRotor2"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/labelRotor3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rotor 3"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@id/spinnerRotor3"
+        app:layout_constraintStart_toStartOf="@id/spinnerRotor3"
+        app:layout_constraintEnd_toEndOf="@id/spinnerRotor3"
+        android:layout_marginBottom="4dp"/>
+
+
+    <Spinner
+        android:id="@+id/spinnerRotor1"
+        android:layout_width="115dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toStartOf="@+id/spinnerRotor2"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/labelcode" />
+
+    <Spinner
+        android:id="@+id/spinnerRotor2"
+        android:layout_width="115dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toStartOf="@+id/spinnerRotor3"
+        app:layout_constraintHorizontal_bias="0.327"
+        app:layout_constraintStart_toEndOf="@+id/spinnerRotor1"
+        app:layout_constraintTop_toBottomOf="@+id/labelcode" />
+
+    <Spinner
+        android:id="@+id/spinnerRotor3"
+        android:layout_width="115dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.628"
+        app:layout_constraintStart_toEndOf="@+id/spinnerRotor2"
+        app:layout_constraintTop_toBottomOf="@+id/labelcode" />
+
+    <TextView
+        android:id="@+id/labelcode2"
+        android:layout_width="57dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="12dp"
+        android:text="decode"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerRotor2" />
+
+    <EditText
+        android:id="@+id/inputTexto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Digite o texto aqui"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelcode2" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCodificar"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="316dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="12dp"
+        android:text="Codificar"
+        app:cornerRadius="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/inputTexto" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnDecodificar"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="316dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="12dp"
+        android:text="Decodificar"
+        app:cornerRadius="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnCodificar" />
+
+    <TextView
+        android:id="@+id/outputTexto"
+        android:layout_width="348dp"
+        android:layout_height="196dp"
+        android:layout_marginTop="32dp"
+        android:padding="12dp"
+        android:text=""
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnDecodificar" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCopiar"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="316dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="12dp"
+        android:text="Copiar"
+        app:cornerRadius="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/outputTexto"
+        app:layout_constraintVertical_bias="0.068" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
