@@ -61,14 +61,6 @@
 
 ---
 
-
-## ✍️ Citações que me inspiram
-
-> “O mundo é dos que constroem, não dos que apenas comentam.”  
-> “A inovação acontece quando curiosidade e coragem se encontram.”  
-
----
-
 ## 📫 Contato
 
 - 💼 [LinkedIn – felipe-t-p-gaston](https://www.linkedin.com/in/felipe-t-p-gaston-b0b4b9308)  
