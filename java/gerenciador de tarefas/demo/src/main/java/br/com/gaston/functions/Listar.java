@@ -10,7 +10,7 @@ import java.lang.reflect.Type;
 import java.util.List;
 
 public class Listar {
-    private final String caminhoArquivo = "C:/Users/gasto/OneDrive/Área de Trabalho/projeto/Java/gerenciador de tarefas/demo/src/main/resources/Tarefas.json";
+    private final String caminhoArquivo = "C:\\Users\\gasto\\OneDrive\\Área de Trabalho\\FelipeGaston5\\FelipeGaston5\\java\\gerenciador de tarefas\\demo\\src\\main\\resources\\Tarefas.json";
 
     public Listar() {
         System.out.println("=====================================");

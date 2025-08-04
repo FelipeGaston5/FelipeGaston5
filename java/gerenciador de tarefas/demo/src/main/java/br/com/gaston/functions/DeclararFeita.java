@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class DeclararFeita {
-    private final String caminhoArquivo = "C:/Users/gasto/OneDrive/Área de Trabalho/projeto/Java/gerenciador de tarefas/demo/src/main/resources/Tarefas.json";
+    private final String caminhoArquivo = "C:\\Users\\gasto\\OneDrive\\Área de Trabalho\\FelipeGaston5\\FelipeGaston5\\java\\gerenciador de tarefas\\demo\\src\\main\\resources\\Tarefas.json";
     private final Gson gson = new Gson();
 
     public void declararFeita() {

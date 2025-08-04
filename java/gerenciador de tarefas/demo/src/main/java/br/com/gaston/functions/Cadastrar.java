@@ -24,7 +24,7 @@ public class Cadastrar {
     private void salvarTarefa(Tarefa novaTarefa) {
     Gson gson = new Gson();
     List<Tarefa> tarefas = new ArrayList<>();
-    File file = new File("C:/Users/gasto/OneDrive/Área de Trabalho/projeto/Java/gerenciador de tarefas/demo/src/main/resources/Tarefas.json");
+    File file = new File("C:\\Users\\gasto\\OneDrive\\Área de Trabalho\\FelipeGaston5\\FelipeGaston5\\java\\gerenciador de tarefas\\demo\\src\\main\\resources\\Tarefas.json");
 
 
     if (file.exists()) {
