@@ -61,6 +61,72 @@
 
 ---
 
+#### 🔐 Enigma
+>Simulador da máquina de criptografia Enigma em Java, inspirado no modelo utilizado na Segunda Guerra Mundial.
+
+🧠 Tecnologias e linguagens:</br>
+`Java` `Orientação a Objetos` `Criptografia Clássica`
+
+🔍 Funcionalidades principais:
+<ul>
+  <li>Configuração de rotores, refletor e plugboard</li>
+  <li>Ciframento e deciframento simétrico</li>
+  <li>Estrutura modular e extensível</li>
+  <li>Totalmente implementado em Java puro</li>
+</ul>
+
+📁 Repositório: [Enigma](https://github.com/FelipeGaston5/FelipeGaston5/tree/main/java/Enigma)
+
+---
+
+#### 📋 Gerenciador de Tarefas - Java Console
+
+> Sistema simples de console em Java para gerenciar tarefas com persistência em JSON.
+
+##### 🚀 Funcionalidades
+
+- Cadastrar tarefa (nome, descrição, data, hora, prioridade)
+- Listar tarefas
+- Excluir tarefa por índice
+- Marcar tarefa como feita
+- Tarefas persistidas em `Tarefas.json`
+
+##### 📂 Estrutura de Pastas
+
+```plaintext
+gerenciador-de-tarefas/
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── br/
+│       │       └── com/
+│       │           └── gaston/
+│       │               ├── Main.java
+│       │               └── functions/
+│       │                   ├── Cadastrar.java
+│       │                   ├── Listar.java
+│       │                   ├── Excluir.java
+│       │                   ├── MarcarComoFeita.java
+│       │                   └── Escolha.java
+│       └── resources/
+│           └── Tarefas.json
+
+```
+
+##### 📦 Pré-requisitos
+
+- Java 17 ou superior
+- Arquivo JSON de tarefas (`Tarefas.json`)
+- Biblioteca externa `gson-2.13.1.jar`
+
+##### 🛠️ Como executar
+Entre no arquivo `Main.java` e execute-o.
+Se quiser acessar a lista por fora acesse `Tarefas.json`
+
+📁 Repositório: [Gerenciador de tarefas](https://github.com/FelipeGaston5/FelipeGaston5/tree/main/java/gerenciador%20de%20tarefas/demo/src/main/java/br/com/gaston)
+
+---
+
 ## 📫 Contato
 
 - 💼 [LinkedIn – felipe-t-p-gaston](https://www.linkedin.com/in/felipe-t-p-gaston-b0b4b9308)  
