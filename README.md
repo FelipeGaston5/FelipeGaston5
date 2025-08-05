@@ -84,6 +84,9 @@ site : [Baixar](https://enigma-blond.vercel.app/)
 
 > Sistema simples de console em Java para gerenciar tarefas com persistência em JSON.
 
+🧠 Tecnologias e linguagens:</br>
+`Java` `JSON` `Orientação a Objetos` `Organização padrão`
+
 ##### 🚀 Funcionalidades
 
 - Cadastrar tarefa (nome, descrição, data, hora, prioridade)
@@ -137,8 +140,8 @@ Implementações incluídas:
 - **Árvores**: Binária de Busca e AVL
 - **Tabela Hash** com tratamento de colisões
 
-##### Linguagen
-`C` `h`
+🧠 Tecnologias e linguagens:</br>
+`C` `Orientação a Objetos` `Estrutura de dados`
 
 ##### Como usar:
 1. Compilar: `make`
