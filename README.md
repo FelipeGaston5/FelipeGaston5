@@ -76,6 +76,7 @@
 </ul>
 
 📁 Repositório: [Enigma](https://github.com/FelipeGaston5/FelipeGaston5/tree/main/java/Enigma)
+site : [Baixar](https://enigma-blond.vercel.app/)
 
 ---
 
@@ -124,6 +125,28 @@ Entre no arquivo `Main.java` e execute-o.
 Se quiser acessar a lista por fora acesse `Tarefas.json`
 
 📁 Repositório: [Gerenciador de tarefas](https://github.com/FelipeGaston5/FelipeGaston5/tree/main/java/gerenciador%20de%20tarefas/demo/src/main/java/br/com/gaston)
+
+---
+
+
+#### Projeto de Estruturas de Dados 
+
+Implementações incluídas:
+- **Listas Encadeadas**: Simples, Dupla e Circular
+- **Pilha e Fila** (com arrays)
+- **Árvores**: Binária de Busca e AVL
+- **Tabela Hash** com tratamento de colisões
+
+##### Linguagen
+`C` `h`
+
+##### Como usar:
+1. Compilar: `make`
+2. Executar: `./estruturas_teste` ou `make run`
+
+O programa oferece um **menu interativo** para testar todas as estruturas.
+
+Requisitos: `GCC` e `Linux/Unix` (ou `WSL` no `Windows`).
 
 ---
 
