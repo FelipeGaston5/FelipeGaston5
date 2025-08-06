@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "include/lista_simples.h"
-#include "include/lista_dupla.h"
-#include "include/lista_circular.h"
-#include "include/pilha.h"
-#include "include/fila.h"
-#include "include/arvore_binaria.h"
-#include "include/arvore_avl.h"
-#include "include/hashtable.h"
+#include "lista_simples.h"
+// #include "lista_dupla.h"
+#include "lista_circular.h"
+#include "pilha.h"
+#include "fila.h"
+#include "arvore_binaria.h"
+#include "arvore_avl.h"
+#include "hashtable.h"
 
 void testar_lista_simples()
 {
@@ -30,27 +30,27 @@ void testar_lista_simples()
     destruir_lista_simples(&lista);
 }
 
-void testar_lista_dupla()
-{
-    printf("\n=== TESTE LISTA DUPLA ===\n");
-    ListaDupla lista;
-    inicializar_lista_dupla(&lista);
+// void testar_lista_dupla()
+// {
+//     printf("\n=== TESTE LISTA DUPLA ===\n");
+//     ListaDupla lista;
+//     inicializar_lista_dupla(&lista);
 
-    inserir_inicio_lista_dupla(&lista, 10);
-    inserir_inicio_lista_dupla(&lista, 20);
-    inserir_fim_lista_dupla(&lista, 30);
-    inserir_fim_lista_dupla(&lista, 40);
+//     inserir_inicio_lista_dupla(&lista, 10);
+//     inserir_inicio_lista_dupla(&lista, 20);
+//     inserir_fim_lista_dupla(&lista, 30);
+//     inserir_fim_lista_dupla(&lista, 40);
 
-    imprimir_lista_dupla(lista);
-    imprimir_lista_dupla_reverso(lista);
+//     imprimir_lista_dupla(lista);
+//     imprimir_lista_dupla_reverso(lista);
 
-    remover_lista_dupla(&lista, 20);
-    remover_lista_dupla(&lista, 40);
+//     remover_lista_dupla(&lista, 20);
+//     remover_lista_dupla(&lista, 40);
 
-    imprimir_lista_dupla(lista);
+//     imprimir_lista_dupla(lista);
 
-    destruir_lista_dupla(&lista);
-}
+//     destruir_lista_dupla(&lista);
+// }
 
 void testar_lista_circular()
 {
@@ -212,7 +212,7 @@ void menu_principal()
     {
         printf("\n=== MENU PRINCIPAL ===\n");
         printf("1. Testar Lista Simples\n");
-        printf("2. Testar Lista Dupla\n");
+        // printf("2. Testar Lista Dupla\n");
         printf("3. Testar Lista Circular\n");
         printf("4. Testar Pilha\n");
         printf("5. Testar Fila\n");
@@ -228,9 +228,9 @@ void menu_principal()
         case 1:
             testar_lista_simples();
             break;
-        case 2:
-            testar_lista_dupla();
-            break;
+        // case 2:
+        //     testar_lista_dupla();
+        //     break;
         case 3:
             testar_lista_circular();
             break;

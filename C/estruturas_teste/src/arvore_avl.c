@@ -153,3 +153,8 @@ void destruir_arvore_avl(NoAVL *no)
         free(no);
     }
 }
+
+void inicializar_arvore_avl(ArvoreAVL *arvore)
+{
+    arvore->raiz = NULL;
+}

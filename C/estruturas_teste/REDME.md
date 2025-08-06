@@ -1,41 +1,61 @@
-### Projeto de Estruturas de Dados em C
+### 📚 Projeto de Estruturas de Dados em C
 
 > Este projeto implementa diversas estruturas de dados em C com
-> interfaces de teste:
+> interfaces de teste interativas para você explorar cada uma delas!
 
-##### Estruturas Implementadas
+##### ✅ Estruturas Implementadas
 
-1. Listas Encadeadas:
+1. 📋 Listas Encadeadas
    - Lista Simples
    - Lista Dupla
    - Lista Circular
 
-2. Pilha e Fila:
+2. 🗂️ Pilha e Fila
    - Pilha (implementação com array)
    - Fila (implementação com array)
 
-3. Árvores:
+3. 🌳 Árvores
    - Árvore Binária de Busca
    - Árvore AVL (balanceada)
 
-4. Tabela Hash:
+4. 🔢 Tabela Hash
    - Implementação com tratamento de colisões por encadeamento
 
-##### Como compilar e executar
+##### ⚙️ Como Compilar e Executar
 
-1. Compilar o projeto:
+1. Abra o terminal (Linux/Unix/macOS) ou WSL no Windows.
 
-```bash
-make
+2. Navegue até a pasta do projeto, por exemplo:
+
+```
+   cd /caminho/para/estruturas_teste
 ```
 
-##### Funcionalidades
-O programa apresenta um menu interativo para testar cada uma das estruturas implementadas.
+3. Compile o projeto com o comando:
+
+```
+   make
+```
+
+4. Execute o programa:
+
+``` 
+   make run
+```
+
+##### 🎯 Funcionalidades
+
+ - Menu interativo para testar:
+ - Inserção
+ - Remoção
+ - Impressão
+ - Busca para cada estrutura implementada.
+
 
 #### Requisitos
 
 - Compilador GCC
-- Sistema operacional Linux/Unix (ou WSL no Windows)
+- Sistema operacional `Linux/Unix` ou `Windows`
 
 > Este projeto completo implementa todas as estruturas de dados
 > solicitadas com:
